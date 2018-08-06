@@ -30,6 +30,9 @@ color: rgb(255,255,255);</string>
       <height>41</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(34, 34, 34)</string>
+    </property>
     <property name="text">
      <string>Settings</string>
     </property>
@@ -49,6 +52,9 @@ color: rgb(255,255,255);</string>
       <height>41</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(34, 34, 34)</string>
+    </property>
     <property name="text">
      <string>Exit</string>
     </property>
@@ -64,6 +70,9 @@ color: rgb(255,255,255);</string>
       <width>161</width>
       <height>41</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(34, 34, 34)</string>
     </property>
     <property name="text">
      <string>Toggle cursor</string>
@@ -84,6 +93,9 @@ color: rgb(255,255,255);</string>
       <height>41</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(34, 34, 34)</string>
+    </property>
     <property name="text">
      <string>Wireless connection</string>
     </property>
@@ -98,7 +110,7 @@ color: rgb(255,255,255);</string>
     <property name="geometry">
      <rect>
       <x>80</x>
-      <y>150</y>
+      <y>110</y>
       <width>420</width>
       <height>185</height>
      </rect>
@@ -107,76 +119,13 @@ color: rgb(255,255,255);</string>
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/android_auto_logo.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
-   <widget class="QLabel" name="loading">
-    <property name="geometry">
-     <rect>
-      <x>620</x>
-      <y>190</y>
-      <width>82</width>
-      <height>82</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>&lt;html&gt;&lt;head&gt;&lt;style&gt;.spinner {
-  margin: 100px auto;
-  width: 40px;
-  height: 40px;
-  position: relative;
-  text-align: center;
-  
-  -webkit-animation: sk-rotate 2.0s infinite linear;
-  animation: sk-rotate 2.0s infinite linear;
-}
-
-.dot1, .dot2 {
-  width: 60%;
-  height: 60%;
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  background-color: #333;
-  border-radius: 100%;
-  
-  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
-  animation: sk-bounce 2.0s infinite ease-in-out;
-}
-
-.dot2 {
-  top: auto;
-  bottom: 0;
-  -webkit-animation-delay: -1.0s;
-  animation-delay: -1.0s;
-}
-
-@-webkit-keyframes sk-rotate { 100% { -webkit-transform: rotate(360deg) }}
-@keyframes sk-rotate { 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg) }}
-
-@-webkit-keyframes sk-bounce {
-  0%, 100% { -webkit-transform: scale(0.0) }
-  50% { -webkit-transform: scale(1.0) }
-}
-
-@keyframes sk-bounce {
-  0%, 100% { 
-    transform: scale(0.0);
-    -webkit-transform: scale(0.0);
-  } 50% { 
-    transform: scale(1.0);
-    -webkit-transform: scale(1.0);
-  }
-}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;div class=&quot;spinner&quot;&gt;
-  &lt;div class=&quot;dot1&quot;&gt;&lt;/div&gt;
-  &lt;div class=&quot;dot2&quot;&gt;&lt;/div&gt;
-&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="loadingText">
     <property name="geometry">
      <rect>
-      <x>590</x>
-      <y>290</y>
-      <width>141</width>
-      <height>16</height>
+      <x>80</x>
+      <y>310</y>
+      <width>281</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="font">
